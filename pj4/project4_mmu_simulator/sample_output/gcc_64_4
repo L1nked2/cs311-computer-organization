@@ -1,0 +1,35 @@
+TLB Configuration:
+-------------------------------------
+Number of entries: 64
+Associativity: 4way
+
+MMU Stats:
+-------------------------------------
+Total memory accesses: 182138
+Total read accesses: 180095
+Total write accesses: 2043
+Total TLB accesses: 182167
+Total TLB hits: 182108
+Total TLB misses: 59
+Total page walks: 62
+Total page faults: 29
+
+TLB Content:
+-------------------------------------
+          WAY[0]      WAY[1]      WAY[2]      WAY[3]
+SET[0]:    (v=1 tag=0x00517 ppn=0x0040a d=1) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[1]:    (v=1 tag=0x004cb ppn=0x0040f d=0) | (v=1 tag=0x00517 ppn=0x00418 d=1) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[2]:    (v=1 tag=0x004cb ppn=0x0040e d=0) | (v=1 tag=0x00517 ppn=0x00419 d=1) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[3]:    (v=1 tag=0x004d5 ppn=0x00406 d=0) | (v=1 tag=0x004cb ppn=0x00409 d=0) | (v=1 tag=0x00517 ppn=0x0041b d=1) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[4]:    (v=1 tag=0x000e4 ppn=0x00401 d=0) | (v=1 tag=0x00517 ppn=0x0041d d=1) | (v=1 tag=0x004cb ppn=0x0040d d=0) | (v=1 tag=0x00408 ppn=0x00405 d=0) |
+SET[5]:    (v=1 tag=0x004cb ppn=0x0040c d=0) | (v=1 tag=0x00408 ppn=0x0041c d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[6]:    (v=1 tag=0x00061 ppn=0x00403 d=0) | (v=1 tag=0x004cb ppn=0x0040b d=0) | (v=1 tag=0x003fe ppn=0x00412 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[7]:    (v=1 tag=0x004cb ppn=0x00402 d=1) | (v=1 tag=0x00049 ppn=0x00415 d=0) | (v=1 tag=0x00408 ppn=0x0041a d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[8]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[9]:    (v=1 tag=0x00049 ppn=0x00404 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[10]:    (v=1 tag=0x00046 ppn=0x00410 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[11]:    (v=1 tag=0x0042e ppn=0x00407 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[12]:    (v=1 tag=0x004d4 ppn=0x00408 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[13]:    (v=1 tag=0x0003d ppn=0x00416 d=0) | (v=1 tag=0x00038 ppn=0x00417 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[14]:    (v=1 tag=0x00038 ppn=0x00414 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[15]:    (v=1 tag=0x00038 ppn=0x00413 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |

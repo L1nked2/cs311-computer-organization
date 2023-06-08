@@ -1,0 +1,35 @@
+TLB Configuration:
+-------------------------------------
+Number of entries: 64
+Associativity: 4way
+
+MMU Stats:
+-------------------------------------
+Total memory accesses: 19
+Total read accesses: 12
+Total write accesses: 7
+Total TLB accesses: 20
+Total TLB hits: 18
+Total TLB misses: 2
+Total page walks: 3
+Total page faults: 1
+
+TLB Content:
+-------------------------------------
+          WAY[0]      WAY[1]      WAY[2]      WAY[3]
+SET[0]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[1]:    (v=1 tag=0x01000 ppn=0x00401 d=1) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[2]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[3]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[4]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[5]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[6]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[7]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[8]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[9]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[10]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[11]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[12]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[13]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[14]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[15]:    (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) | (v=0 tag=0x00000 ppn=0x00000 d=0) |

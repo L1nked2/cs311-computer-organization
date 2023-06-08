@@ -1,0 +1,35 @@
+TLB Configuration:
+-------------------------------------
+Number of entries: 16
+Associativity: 1way
+
+MMU Stats:
+-------------------------------------
+Total memory accesses: 182138
+Total read accesses: 180095
+Total write accesses: 2043
+Total TLB accesses: 182167
+Total TLB hits: 181784
+Total TLB misses: 383
+Total page walks: 386
+Total page faults: 29
+
+TLB Content:
+-------------------------------------
+          WAY[0]
+SET[0]:    (v=1 tag=0x00517 ppn=0x0040a d=1) |
+SET[1]:    (v=1 tag=0x004cb ppn=0x0040f d=0) |
+SET[2]:    (v=1 tag=0x004cb ppn=0x0040e d=0) |
+SET[3]:    (v=1 tag=0x004cb ppn=0x00409 d=0) |
+SET[4]:    (v=1 tag=0x00517 ppn=0x0041d d=1) |
+SET[5]:    (v=1 tag=0x004cb ppn=0x0040c d=0) |
+SET[6]:    (v=1 tag=0x004cb ppn=0x0040b d=0) |
+SET[7]:    (v=1 tag=0x004cb ppn=0x00402 d=1) |
+SET[8]:    (v=0 tag=0x00000 ppn=0x00000 d=0) |
+SET[9]:    (v=1 tag=0x00049 ppn=0x00404 d=0) |
+SET[10]:    (v=1 tag=0x00046 ppn=0x00410 d=0) |
+SET[11]:    (v=1 tag=0x0042e ppn=0x00407 d=0) |
+SET[12]:    (v=1 tag=0x004d4 ppn=0x00408 d=0) |
+SET[13]:    (v=1 tag=0x00038 ppn=0x00417 d=0) |
+SET[14]:    (v=1 tag=0x00038 ppn=0x00414 d=0) |
+SET[15]:    (v=1 tag=0x00038 ppn=0x00413 d=0) |
